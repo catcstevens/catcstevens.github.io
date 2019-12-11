@@ -1,9 +1,11 @@
+$header-colour: #AA1155;
+$hover-colour: #85b79d;
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #aa1155
+    background-color: $header-colour;
   }
   
   li {
@@ -13,15 +15,16 @@ ul {
   li a {
     display: block;
     color: white;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    padding: 15px 113.1px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 114.8px;
     text-decoration: none;
+    border: 1px solid #000;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #85b79d;
+    background-color:$hover-colour;
+
   }
-  
