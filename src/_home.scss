@@ -1,4 +1,16 @@
 $favourite-pink: rgb(237, 33, 124);
+
+#background {
+  background-image: url('./background image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 610px;
+  margin: 0;
+  padding: 0;
+  size: cover;
+}
+
 .white-nav {
   ul {
     display: flex;
@@ -21,9 +33,8 @@ $favourite-pink: rgb(237, 33, 124);
     color: #fff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding: 10px; */
     text-decoration: none;
-    /* display: inline-block; */
+
   }
 
   #logo-box {
@@ -35,9 +46,24 @@ $favourite-pink: rgb(237, 33, 124);
     background-color: #ed217c;
   }
 }
-body {
-  background-image: url('./background image.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  size: cover;
+#homepage-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+      
+  
+  .hp-section1 {
+    flex-basis: 50%;
+    height: 300px;
+    flex-grow: 1;
+    background-color:  rgb(90, 190, 145);
+  }
+
+  .hp-section2 {
+    flex-basis: 50%;
+    height: 300px;
+    flex-grow: 1;
+    background-color: #fff;
+  }
+
 }
