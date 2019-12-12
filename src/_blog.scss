@@ -35,7 +35,7 @@ $favourite-pink: rgb(237, 33, 124);
     li:hover {
       background-color: #ed217c;
     }
-  }
+}
   #image-container {
       display: flex;
     //   align-items: center;
@@ -68,6 +68,7 @@ $favourite-pink: rgb(237, 33, 124);
       margin: 20px;
       position: relative;
       width: 250px;
+      background-color: white;
 
       .dot {
         position: relative;
@@ -95,9 +96,12 @@ $favourite-pink: rgb(237, 33, 124);
       }
       
 
-}
+    }
 
-  
+    body {
+        background-color: #b9e3c6;
+        
+      }
 
 
     

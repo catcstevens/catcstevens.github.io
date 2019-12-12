@@ -29,6 +29,13 @@
   background-color: #ed217c;
 }
 
+body {
+  background-image: url("./background image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  size: cover;
+}
+
 .black-nav {
   /* Change the link color to #111 (black) on hover */
 }
@@ -90,6 +97,7 @@ img {
   margin: 20px;
   position: relative;
   width: 250px;
+  background-color: white;
 }
 .blog-image .dot {
   position: relative;
@@ -110,6 +118,10 @@ img {
   max-width: 250px;
   text-align: center;
   margin-top: 0;
+}
+
+body {
+  background-color: #b9e3c6;
 }
 
 /*# sourceMappingURL=styles.css.map */
