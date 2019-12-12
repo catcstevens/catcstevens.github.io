@@ -1,36 +1,37 @@
 $favourite-pink: rgb(237, 33, 124);
+.white-nav {
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+    
+  }
 
-ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  
-  
-}
+  li {
+    border: 2px solid #fff;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+  }
 
-li {
-  border: 2px solid #fff;
-  padding: 10px;
-  flex-grow: 1;
-  text-align: center;
-}
+  li a {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 10px; */
+    text-decoration: none;
+    /* display: inline-block; */
+  }
 
-li a {
-  color: #fff;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  /* padding: 10px; */
-  text-decoration: none;
-  /* display: inline-block; */
-}
+  #logo-box {
+    flex-grow: 2;
+  }
 
-#logo-box {
-  flex-grow: 2;
-}
-
-/* Change the link color to #111 (black) on hover */
-li:hover {
-  background-color: #ed217c;
+  /* Change the link color to #111 (black) on hover */
+  li:hover {
+    background-color: #ed217c;
+  }
 }
