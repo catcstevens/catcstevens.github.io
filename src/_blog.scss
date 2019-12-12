@@ -1,4 +1,4 @@
-
+$favourite-pink: rgb(237, 33, 124);
 
 .black-nav {
     ul {
@@ -36,3 +36,49 @@
       background-color: #ed217c;
     }
   }
+  #image-container {
+      display: flex;
+    //   align-items: center;
+    align-items: flex-start;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+  }
+
+  h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      color: $favourite-pink;
+      text-align: center
+  }
+
+  img {
+    height: 200px;
+    width: 200px;  
+    margin: 20px;
+    padding: 10px;
+  }
+
+    .blog-image {
+      border-style: solid;
+      border-color: #000;
+      border-width: 2px;
+      padding: 10px;
+      margin: 20px;
+      
+
+      p {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 250px;
+      text-align: center;
+      }
+      
+
+}
+
+  
+
+
+    
+
+  
