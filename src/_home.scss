@@ -56,6 +56,31 @@ body, html {
     background-color: $favourite-pink;
   }
 }
+
+// #wordart {
+  #C {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+
+
+.C {
+  // font-family: ;
+  font-size: 80px;
+  align-self: flex-start
+}
+
+.A {
+  font-size: 80px;
+  align-self: baseline;
+}
+
+.T {
+  font-size: 80px;
+  align-self: flex-end;
+}
+}
 #homepage-section {
     display: flex;
     align-items: center;
