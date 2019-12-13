@@ -25,13 +25,13 @@ body, html {
   justify-content: center;
 }
 .white-nav li {
-  border: 2px solid #fff;
+  border: 2px solid white;
   padding: 10px;
   flex-grow: 1;
   text-align: center;
 }
 .white-nav li a {
-  color: #fff;
+  color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -43,21 +43,25 @@ body, html {
   background-color: #ed217c;
 }
 
-#C {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
+#wordart {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  color: #ed217c;
 }
-#C .C {
-  font-size: 80px;
-  align-self: flex-start;
+#wordart #C {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  font-size: 50px;
 }
-#C .A {
-  font-size: 80px;
+#wordart #A {
+  position: absolute;
+  font-size: 50px;
+  flex-basis: 25px;
   align-self: baseline;
 }
-#C .T {
-  font-size: 80px;
+#wordart #T {
+  flex-basis: 50px;
   align-self: flex-end;
 }
 
@@ -117,7 +121,7 @@ body, html {
   justify-content: space-around;
 }
 
-h1 {
+.pink-heading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   color: #ed217c;
