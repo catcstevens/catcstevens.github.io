@@ -1,16 +1,21 @@
-#background {
-  background-image: url("./background image.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 610px;
+body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  size: cover;
+}
+
+#background {
+  /* The image used */
+  background-image: url("./background image.jpg");
+  /* Full height */
+  height: 100%;
+  margin: -5;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .white-nav {
-  /* Change the link color to #111 (black) on hover */
+  /* Change the link color to #favourite-pink on hover */
 }
 .white-nav ul {
   display: flex;
@@ -47,7 +52,7 @@
   flex-basis: 50%;
   height: 300px;
   flex-grow: 1;
-  background-color: #5abe91;
+  background-color: #f3db53;
 }
 #homepage-section .hp-section2 {
   flex-basis: 50%;
