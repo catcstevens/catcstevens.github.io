@@ -1,7 +1,8 @@
-$favourite-pink: rgb(237, 33, 124);
+$favourite-pink: #ed217c;
 $favourite-yellow: #f3db53;
 $favourite-green: #68bfae;
 $favourite-blue: #95d2d7;
+
 
 body, html {
   height: 100%;
@@ -28,28 +29,37 @@ body, html {
     margin: 0;
     padding: 0;
     justify-content: center;
-    
-    
-  }
-
-  li {
-    border: 2px solid white;
-    padding: 10px;
-    flex-grow: 1;
     text-align: center;
-  }
-
-  li a {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-
+    
   }
 
   #logo-box {
     flex-grow: 2;
+    font-family: 'Satisfy', cursive !important;
+    font-size: 30px;
   }
+  li {
+    border: 2px solid white;
+    padding: 10px;
+    flex-grow: 1;
+    
+  }
+
+  li a {
+    color: white;
+    font-family: 'Raleway', sans-serif !important;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px !important;
+    
+
+  }
+
+  // #logo-box {
+  //   flex-grow: 2;
+  //   font-family: 'Satisfy', cursive;
+  //   font-size: 30px;
+  // }
 
   /* Change the link color to #favourite-pink on hover */
   li:hover {
@@ -64,7 +74,7 @@ body, html {
 100% {color: $favourite-blue;}
 
 }
-// #wordart {
+
   #wordart {
   text-align: center;
   height: 50%;

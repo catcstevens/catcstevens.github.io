@@ -23,21 +23,24 @@ body, html {
   margin: 0;
   padding: 0;
   justify-content: center;
+  text-align: center;
+}
+.white-nav #logo-box {
+  flex-grow: 2;
+  font-family: "Satisfy", cursive !important;
+  font-size: 30px;
 }
 .white-nav li {
   border: 2px solid white;
   padding: 10px;
   flex-grow: 1;
-  text-align: center;
 }
 .white-nav li a {
   color: white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif !important;
   text-decoration: none;
-}
-.white-nav #logo-box {
-  flex-grow: 2;
+  padding: 5px;
+  font-size: 20px !important;
 }
 .white-nav li:hover {
   background-color: #ed217c;
@@ -190,7 +193,8 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-.portraits img {
+
+img {
   border-style: solid;
   border-color: #000;
   border-width: 2px;
@@ -203,14 +207,14 @@ img {
   margin: 0;
 }
 
-#image-container {
+#image-container2 {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.pink-heading {
+.pink-heading2 {
   font-family: arial;
   font-size: 30px;
   color: #ed217c;
@@ -225,7 +229,7 @@ img {
   z-index: 0;
 }
 
-.blog-image {
+.about-image {
   border-style: solid;
   border-color: #000;
   border-width: 2px;
@@ -235,7 +239,7 @@ img {
   width: 450px;
   background-color: white;
 }
-.blog-image .dot {
+.about-image .dot2 {
   position: relative;
   left: 45%;
   height: 50px;
@@ -249,13 +253,13 @@ img {
   z-index: 2;
   padding: 0;
 }
-.blog-image .block-headings {
+.about-image .block-headings2 {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 400px;
   text-align: center;
   margin-top: 0;
 }
-.blog-image .block-paragraphs {
+.about-image .block-paragraphs2 {
   max-width: 425px;
   text-align: center;
 }
