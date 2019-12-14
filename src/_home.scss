@@ -1,5 +1,7 @@
 $favourite-pink: rgb(237, 33, 124);
-
+$favourite-yellow: #f3db53;
+$favourite-green: #68bfae;
+$favourite-blue: #95d2d7;
 
 body, html {
   height: 100%;
@@ -55,12 +57,22 @@ body, html {
   }
 }
 
+@keyframes wordart {
+0% {color: $favourite-pink;}
+25% {color: $favourite-yellow;}
+50% {color: $favourite-green;}
+100% {color: $favourite-blue;}
+
+}
 // #wordart {
   #wordart {
   text-align: center;
   height: 50%;
   font-family: 'Times New Roman', Times, serif;
   color: $favourite-pink;
+  animation-name: wordart;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
   font-size: 100px;
   
 

@@ -3,11 +3,31 @@ $favourite-pink: rgb(237, 33, 124);
 .main-heading {
 font-size: 40px;
 color: $favourite-pink;
+text-align: center;
 
 }
 
 .main-paragraph {
 font-size: 20px;
+}
+.portraits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    border-style: solid;
+      border-color: #000;
+      border-width: 2px;
+      padding: 10px;
+      margin: 20px;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      background-color: white;
+
+  }
 }
 
 #image-container {

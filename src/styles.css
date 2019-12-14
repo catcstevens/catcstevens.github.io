@@ -43,11 +43,28 @@ body, html {
   background-color: #ed217c;
 }
 
+@keyframes wordart {
+  0% {
+    color: #ed217c;
+  }
+  25% {
+    color: #f3db53;
+  }
+  50% {
+    color: #68bfae;
+  }
+  100% {
+    color: #95d2d7;
+  }
+}
 #wordart {
   text-align: center;
   height: 50%;
   font-family: "Times New Roman", Times, serif;
   color: #ed217c;
+  animation-name: wordart;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
   font-size: 100px;
 }
 #wordart #C {
@@ -159,10 +176,29 @@ img {
 .main-heading {
   font-size: 40px;
   color: #ed217c;
+  text-align: center;
 }
 
 .main-paragraph {
   font-size: 20px;
+}
+
+.portraits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portraits img {
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: white;
 }
 
 #image-container {
