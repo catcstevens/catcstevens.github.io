@@ -194,7 +194,7 @@ img {
   justify-content: center;
 }
 
-img {
+.portrait {
   border-style: solid;
   border-color: #000;
   border-width: 2px;
