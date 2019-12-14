@@ -44,25 +44,14 @@ body, html {
 }
 
 #wordart {
-  position: relative;
+  text-align: center;
+  height: 50%;
   font-family: "Times New Roman", Times, serif;
   color: #ed217c;
+  font-size: 100px;
 }
 #wordart #C {
-  position: absolute;
-  left: 40px;
-  top: 100px;
-  font-size: 50px;
-}
-#wordart #A {
-  position: absolute;
-  font-size: 50px;
-  flex-basis: 25px;
-  align-self: baseline;
-}
-#wordart #T {
-  flex-basis: 50px;
-  align-self: flex-end;
+  display: inline-block;
 }
 
 #homepage-section {
@@ -148,7 +137,7 @@ img {
 }
 .blog-image .dot {
   position: relative;
-  left: 45%;
+  left: 50%;
   height: 50px;
   width: 50px;
   background-color: #ed217c;
@@ -165,6 +154,72 @@ img {
   max-width: 250px;
   text-align: center;
   margin-top: 0;
+}
+
+.main-heading {
+  font-size: 40px;
+  color: #ed217c;
+}
+
+.main-paragraph {
+  font-size: 20px;
+}
+
+#image-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pink-heading {
+  font-family: arial;
+  font-size: 30px;
+  color: #ed217c;
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  z-index: 0;
+}
+
+.blog-image {
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+  width: 450px;
+  background-color: white;
+}
+.blog-image .dot {
+  position: relative;
+  left: 45%;
+  height: 50px;
+  width: 50px;
+  background-color: #ed217c;
+  border-radius: 50%;
+  display: inline-block;
+  top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  padding: 0;
+}
+.blog-image .block-headings {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  text-align: center;
+  margin-top: 0;
+}
+.blog-image .block-paragraphs {
+  max-width: 425px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

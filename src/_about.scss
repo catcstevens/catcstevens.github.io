@@ -1,0 +1,77 @@
+$favourite-pink: rgb(237, 33, 124);
+
+.main-heading {
+font-size: 40px;
+color: $favourite-pink;
+
+}
+
+.main-paragraph {
+font-size: 20px;
+}
+
+#image-container {
+    display: flex;
+  //   align-items: center;
+  align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.pink-heading {
+    font-family: arial;
+    font-size: 30px;
+    color: $favourite-pink;
+    text-align: center
+}
+
+img {
+  height: 400px;
+  width: 400px;  
+  margin: 20px;
+  padding: 10px;
+  z-index: 0;
+}
+
+  .blog-image {
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    width: 450px;
+    background-color: white;
+
+    .dot {
+      position: relative;
+      left: 45%;
+      height: 50px;
+      width: 50px;
+      background-color: $favourite-pink;
+      border-radius: 50%;
+      display: inline-block;
+      top: -60px;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+      padding: 0;
+  
+    }
+    
+
+    .block-headings {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 0;
+    
+    }
+    
+    .block-paragraphs {
+      max-width: 425px;
+      text-align: center;
+    }
+
+  }
