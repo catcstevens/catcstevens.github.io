@@ -52,13 +52,13 @@ $favourite-pink: rgb(237, 33, 124);
       text-align: center
   }
 
-  img {
-    height: 200px;
-    width: 200px;  
-    margin: 20px;
-    padding: 10px;
-    z-index: 0;
-  }
+  // img {
+  //   height: 200px;
+  //   width: 200px;  
+  //   margin: 20px;
+  //   padding: 10px;
+  //   z-index: 0;
+  // }
 
     .blog-image {
       border-style: solid;
@@ -70,9 +70,17 @@ $favourite-pink: rgb(237, 33, 124);
       width: 250px;
       background-color: white;
 
+      img {
+        height: 200px;
+        width: 200px;  
+        margin: 20px;
+        padding: 10px;
+        z-index: 0;
+      }
+
       .dot {
         position: relative;
-        left: 50%;
+        left: 40%;
         height: 50px;
         width: 50px;
         background-color: $favourite-pink;
