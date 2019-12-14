@@ -9,6 +9,7 @@ text-align: center;
 
 .main-paragraph {
 font-size: 20px;
+text-align: center;
 }
 .portraits {
   display: flex;
@@ -26,6 +27,7 @@ font-size: 20px;
       width: 200px;
       height: 200px;
       background-color: white;
+      margin: 0;
 
   }
 }
