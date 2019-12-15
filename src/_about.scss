@@ -3,6 +3,7 @@ $favourite-pink: rgb(237, 33, 124);
 .main-heading {
 font-size: 40px;
 color: $favourite-pink;
+font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 
 }
@@ -10,6 +11,7 @@ text-align: center;
 .main-paragraph {
 font-size: 20px;
 text-align: center;
+font-family: Arial, Helvetica, sans-serif;
 }
 .portraits {
   display: flex;

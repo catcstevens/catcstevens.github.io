@@ -22,9 +22,6 @@ body, html {
   
 }
 
-#logo-box {
-  font-family: 'satisfy', cursive;
-}
 .white-nav {
     ul {
       display: flex;
@@ -54,6 +51,7 @@ body, html {
   
     #logo-box {
       flex-grow: 2;
+      font-family: cursive;
       
     }
 
