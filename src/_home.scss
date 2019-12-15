@@ -1,7 +1,7 @@
-$favourite-pink: #ed217c;
-$favourite-yellow: #f3db53;
-$favourite-green: #68bfae;
-$favourite-blue: #95d2d7;
+$favourite-pink: rgb(237, 33, 124);
+$favourite-yellow: rgb(243, 219, 83);
+$favourite-green: rgb(104, 191, 174);
+$favourite-blue: rgb(149, 210, 215);
 
 
 body, html {
@@ -98,9 +98,10 @@ body, html {
  display: inline-block;
 }
 @keyframes wordart2 {
-  0% {color: $favourite-pink;}
-  25% {color: $favourite-yellow;}
-  50% {color: $favourite-green;}
+  0% {visibility: hidden;}
+  25% {color: $favourite-pink;}
+  50% {color: $favourite-yellow;}
+  75% {color: $favourite-green;}
   100% {color: $favourite-blue;}
 }
   }
@@ -108,11 +109,14 @@ body, html {
     #wordart2 {
     text-align: center;
     height: 50%;
+    line-height: 1px;
     font-family: 'Times New Roman', Times, serif;
     color: $favourite-pink;
     animation-name: wordart;
     animation-duration: 4s;
     animation-iteration-count: 4;
+    animation-delay:5s;
+
     font-size: 100px;
 
     #S {
@@ -130,13 +134,18 @@ body, html {
     flex-basis: 50%;
     height: 300px;
     flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
     background-color:  #f3db53;
   }
 
   .hp-section2 {
-    flex-basis: 50%;
+    flex-basis: 100%;
     height: 300px;
     flex-grow: 1;
+    font-family: arial;
+    font-size: 30px;
     background-color: #fff;
   }
 

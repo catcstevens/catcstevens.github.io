@@ -74,27 +74,36 @@ li:hover {
 }
 @keyframes wordart2 {
   0% {
-    color: #ed217c;
+    visibility: hidden;
   }
   25% {
-    color: #f3db53;
+    color: #ed217c;
   }
   50% {
+    color: #f3db53;
+  }
+  75% {
     color: #68bfae;
   }
   100% {
     color: #95d2d7;
   }
 }
-#wordart #wordart2 {
+
+#wordart2 {
   text-align: center;
   height: 50%;
+  line-height: 1px;
   font-family: "Times New Roman", Times, serif;
   color: #ed217c;
   animation-name: wordart;
   animation-duration: 4s;
   animation-iteration-count: 4;
+  animation-delay: 5s;
   font-size: 100px;
+}
+#wordart2 #S {
+  display: inline-block;
 }
 
 #homepage-section {
@@ -106,12 +115,17 @@ li:hover {
   flex-basis: 50%;
   height: 300px;
   flex-grow: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
   background-color: #f3db53;
 }
 #homepage-section .hp-section2 {
-  flex-basis: 50%;
+  flex-basis: 100%;
   height: 300px;
   flex-grow: 1;
+  font-family: arial;
+  font-size: 30px;
   background-color: #fff;
 }
 
