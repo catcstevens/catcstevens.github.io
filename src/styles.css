@@ -14,6 +14,10 @@ body, html {
   background-size: cover;
 }
 
+#logo-box {
+  font-family: "satisfy", cursive;
+}
+
 .white-nav ul {
   display: flex;
   list-style-type: none;
