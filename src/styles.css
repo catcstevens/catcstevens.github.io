@@ -72,6 +72,30 @@ li:hover {
 #wordart #C {
   display: inline-block;
 }
+@keyframes wordart2 {
+  0% {
+    color: #ed217c;
+  }
+  25% {
+    color: #f3db53;
+  }
+  50% {
+    color: #68bfae;
+  }
+  100% {
+    color: #95d2d7;
+  }
+}
+#wordart #wordart2 {
+  text-align: center;
+  height: 50%;
+  font-family: "Times New Roman", Times, serif;
+  color: #ed217c;
+  animation-name: wordart;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
+  font-size: 100px;
+}
 
 #homepage-section {
   display: flex;

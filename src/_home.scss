@@ -84,7 +84,6 @@ body, html {
 100% {color: $favourite-blue;}
 
 }
-
   #wordart {
   text-align: center;
   height: 50%;
@@ -95,18 +94,32 @@ body, html {
   animation-iteration-count: 4;
   font-size: 100px;
   
-
-
-
 #C {
  display: inline-block;
-
- 
-  
 }
-
-
+@keyframes wordart2 {
+  0% {color: $favourite-pink;}
+  25% {color: $favourite-yellow;}
+  50% {color: $favourite-green;}
+  100% {color: $favourite-blue;}
 }
+  }
+
+    #wordart2 {
+    text-align: center;
+    height: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: $favourite-pink;
+    animation-name: wordart;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+    font-size: 100px;
+
+    #S {
+      display: inline-block;
+    }
+    }
+
 #homepage-section {
     display: flex;
     align-items: center;
