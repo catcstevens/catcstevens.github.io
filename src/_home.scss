@@ -65,18 +65,7 @@ body, html {
   li:hover {
     background-color: $favourite-pink;
   }
-// .white-nav {
-//   color: white
-
-
-//   ul {
-//     display: flex;
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-//     justify-content: center;
   
-
 @keyframes wordart {
 0% {color: $favourite-pink;}
 25% {color: $favourite-yellow;}
@@ -128,6 +117,7 @@ body, html {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    
       
   
   .hp-section1 {
@@ -139,23 +129,53 @@ body, html {
     font-size: 20px;
     padding: 60px 40px 0px 30px;
     background-color:  #f3db53;
+    
   }
 
   .hp-section2 {
-    flex-basis: 100%;
+    flex-basis: 50%;
     height: 100px;
+    // align-items: flex-end;
     padding: 0 0 0 30px;
     flex-grow: 1;
     font-family: arial;
     font-size: 30px;
     background-color: #fff;
+    // move images towards the end of the container
     justify-content: flex-end;
+  
+    
     
     .skills {
       height: 200px;
       width: 200px;
       padding: 10px 35px 10px 35px
+      
     }
   }
 
 }
+.footer {
+  display: flex;
+  // justify-content: space-between;
+
+  footer {
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  margin: 300px 0px 0px 0px;
+  position: absolute;
+  border: 2px solid black;
+  background-color:$favourite-pink;
+}
+.small-image {
+height: 40px;
+width: 40px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+
+
