@@ -146,8 +146,8 @@ li:hover {
   justify-content: space-between;
   margin: 300px 0px 0px 0px;
   position: absolute;
-  border: 2px solid black;
-  background-color: #ed217c;
+  border: 2px 0 0 0;
+  border: solid black;
 }
 .footer .small-image {
   height: 40px;
