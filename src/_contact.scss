@@ -2,3 +2,23 @@
     text-align: center;
     margin: 0;
 }
+
+.dot3 {
+
+    
+    position: relative;
+    left: 40%;
+    height: 70px;
+    width: 70px;
+    background-color: $favourite-pink;
+    border-radius: 50%;
+    display: inline-block;
+    top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    padding: 0;
+    
+    
+      
+}
