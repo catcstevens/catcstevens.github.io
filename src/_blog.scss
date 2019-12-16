@@ -41,7 +41,7 @@ $favourite-pink: rgb(237, 33, 124);
     //   align-items: center;
     align-items: flex-start;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: center;
       
   }
 
@@ -76,6 +76,9 @@ $favourite-pink: rgb(237, 33, 124);
         margin: 20px;
         padding: 10px;
         z-index: 0;
+        border-style: solid;
+        border-width: 0 0 2px 0
+        
       }
 
       .dot {
