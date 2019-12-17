@@ -88,22 +88,6 @@ li:hover {
   }
 }
 
-#wordart2 {
-  text-align: center;
-  height: 50%;
-  line-height: 1px;
-  font-family: "Times New Roman", Times, serif;
-  color: #ed217c;
-  animation-name: wordart;
-  animation-duration: 4s;
-  animation-iteration-count: 4;
-  animation-delay: 5s;
-  font-size: 100px;
-}
-#wordart2 #S {
-  display: inline-block;
-}
-
 #homepage-section {
   display: flex;
   align-items: center;
@@ -116,6 +100,7 @@ li:hover {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 20px;
+  text-align: center;
   padding: 60px 40px 0px 30px;
   background-color: #f3db53;
 }
@@ -361,6 +346,51 @@ img {
   margin-right: auto;
   z-index: 2;
   padding: 0;
+}
+
+#wordart2 {
+  font-size: 30px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ed217c;
+  padding: 0px 0px 0px 20px;
+  animation: 4s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+#wordart3 {
+  font-size: 30px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ed217c;
+  padding: 0px 0px 0px 20px;
+  animation: 6s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+#wordart4 {
+  font-size: 30px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ed217c;
+  padding: 0px 0px 20px 20px;
+  animation: 8s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+#S {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=styles.css.map */

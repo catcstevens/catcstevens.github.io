@@ -1,0 +1,45 @@
+#wordart2 {
+font-size: 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $favourite-pink;
+    padding: 0px 0px 0px 20px;
+    animation: 4s fadeIn;
+    animation-fill-mode: forwards;
+
+    visibility: hidden;
+}
+
+#wordart3 {
+    font-size: 30px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $favourite-pink;
+        padding: 0px 0px 0px 20px;
+        animation: 6s fadeIn;
+        animation-fill-mode: forwards;
+    
+        visibility: hidden;
+    }
+    #wordart4 {
+        font-size: 30px;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            color: $favourite-pink;
+            padding: 0px 0px 20px 20px;
+            animation: 8s fadeIn;
+            animation-fill-mode: forwards;
+        
+            visibility: hidden;
+        }
+@keyframes fadeIn {
+        99% {
+            visibility: hidden;
+        }
+        100% {
+            visibility: visible;
+        }
+    }
+        #S {
+            display: inline-block;
+        }
