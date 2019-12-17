@@ -93,33 +93,20 @@ body, html {
 }
   }
 
-    // #wordart2 {
-    // text-align: center;
-    // height: 50%;
-    // line-height: 1px;
-    // font-family: 'Times New Roman', Times, serif;
-    // color: $favourite-pink;
-    // animation-name: wordart;
-    // animation-duration: 4s;
-    // animation-iteration-count: 4;
-    // animation-delay:5s;
-
-    // font-size: 40px;
-    // text-align: center;
-    // font-family: Arial, Helvetica, sans-serif;
-    // color: $favourite-pink;
-
-    // #S {
-    //   display: inline-block;
-    // }
-    // }
 
 #homepage-section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     
-      
+    
+    // .hp-section3 {
+    
+    //   padding: 0 0 30px 30px;
+    //   font-family: arial;
+    //   font-size: 30px;
+    //   background-color: #fff;
+    //   justify-content: flex-start;
   
   .hp-section1 {
     flex-basis: 50%;
@@ -129,7 +116,7 @@ body, html {
     color: white;
     font-size: 20px;
     text-align: center;
-    padding: 60px 40px 0px 30px;
+    padding: 80px 40px 0px 30px;
     background-color:  #f3db53;
     
     
