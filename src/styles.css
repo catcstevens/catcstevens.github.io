@@ -274,6 +274,7 @@ li:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 20px;
 }
 
 .pink-heading2 {
@@ -296,7 +297,7 @@ img {
   border-color: #000;
   border-width: 2px;
   padding: 10px;
-  margin: 20px;
+  margin: 50px;
   position: relative;
   width: 450px;
   background-color: white;
