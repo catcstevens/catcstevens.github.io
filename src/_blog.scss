@@ -1,5 +1,7 @@
-$favourite-pink: rgb(237, 33, 124);
+// Blog page
 
+$favourite-pink: rgb(237, 33, 124);
+// navbar in black
 .black-nav {
     ul {
       display: flex;
@@ -31,7 +33,7 @@ $favourite-pink: rgb(237, 33, 124);
       flex-grow: 2;
     }
   
-    /* Change the link color to #111 (black) on hover */
+    /* Change the link color to favourite pink on hover */
     li:hover {
       background-color: #ed217c;
     }
@@ -51,14 +53,6 @@ $favourite-pink: rgb(237, 33, 124);
       color: $favourite-pink;
       text-align: center
   }
-
-  // img {
-  //   height: 200px;
-  //   width: 200px;  
-  //   margin: 20px;
-  //   padding: 10px;
-  //   z-index: 0;
-  // }
 
     .blog-image {
       border-style: solid;
@@ -80,7 +74,7 @@ $favourite-pink: rgb(237, 33, 124);
         border-width: 0 0 2px 0
         
       }
-
+// Pink circle that links to blog pages
       .dot {
         position: relative;
         left: 40%;
