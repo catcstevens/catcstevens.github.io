@@ -96,7 +96,12 @@ $favourite-pink: rgb(237, 33, 124);
         padding: 0;
     
       }
-      
+      H3 {
+        color: $favourite-pink;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+
+      }
 
       p {
       font-family: Arial, Helvetica, sans-serif;
