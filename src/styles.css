@@ -70,23 +70,6 @@ li:hover {
 #wordart #C {
   display: inline-block;
 }
-@keyframes wordart2 {
-  0% {
-    visibility: hidden;
-  }
-  25% {
-    color: #ed217c;
-  }
-  50% {
-    color: #f3db53;
-  }
-  75% {
-    color: #68bfae;
-  }
-  100% {
-    color: #95d2d7;
-  }
-}
 
 #homepage-section {
   display: flex;
@@ -101,6 +84,7 @@ li:hover {
   color: white;
   font-size: 20px;
   text-align: center;
+  align-items: baseline;
   padding: 80px 40px 0px 30px;
   background-color: #f3db53;
 }

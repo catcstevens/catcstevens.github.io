@@ -1,3 +1,5 @@
+// SCSS for index.html except wordart
+
 $favourite-pink: rgb(237, 33, 124);
 $favourite-yellow: rgb(243, 219, 83);
 $favourite-green: rgb(104, 191, 174);
@@ -22,7 +24,7 @@ body, html {
   background-size: cover;
   
 }
-
+// Navbar in white for homepage
 .white-nav {
     ul {
       display: flex;
@@ -65,6 +67,7 @@ body, html {
     background-color: $favourite-pink;
   }
   
+  // Changes the colour of the CAT four times
 @keyframes wordart {
 0% {color: $favourite-pink;}
 25% {color: $favourite-yellow;}
@@ -85,13 +88,6 @@ body, html {
 #C {
  display: inline-block;
 }
-@keyframes wordart2 {
-  0% {visibility: hidden;}
-  25% {color: $favourite-pink;}
-  50% {color: $favourite-yellow;}
-  75% {color: $favourite-green;}
-  100% {color: $favourite-blue;}
-}
   }
 
 
@@ -100,15 +96,6 @@ body, html {
     align-items: center;
     flex-wrap: wrap;
     
-    
-    // .hp-section3 {
-    
-    //   padding: 0 0 30px 30px;
-    //   font-family: arial;
-    //   font-size: 30px;
-    //   background-color: #fff;
-    //   justify-content: flex-start;
-  
   .hp-section1 {
     flex-basis: 50%;
     height: 300px;
@@ -117,6 +104,7 @@ body, html {
     color: white;
     font-size: 20px;
     text-align: center;
+    align-items: baseline;
     padding: 80px 40px 0px 30px;
     background-color:  #f3db53;
     
