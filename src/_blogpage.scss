@@ -33,71 +33,10 @@ $favourite-pink: rgb(237, 33, 124);
       flex-grow: 2;
     }
   
-    /* Change the link color to #111 (black) on hover */
+    /* Change the link color to barbie pink on hover */
     li:hover {
       background-color: #ed217c;
     }
 }
 
-.pink-heading2 {
-    font-family: arial;
-    font-size: 30px;
-    color: $favourite-pink;
-    text-align: center
-}
-
-#image-container3 {
-    display: flex;
-    align-items: center;
-    // flex-direction: ;
-  // align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    .blog-image2 {
-        
-        align-self: center;
-        border-style: solid;
-        border-color: #000;
-        border-width: 2px;
-        padding: 10px;
-        margin: 20px;
-        width: 75%;
-        flex-grow: 2;
-        // background-color: white;
-        
-        
-
-        .blog2-image {
-            // height: 400px;
-            // width: 400px;
-            border-style: solid;
-            border-color: black;
-            border-width: 0 0 2px 0;
-            flex-grow: 1;
-        
-            
-            
-        }
-    
-
-        .dot2 {
-          position: relative;
-          left: 45%;
-          height: 50px;
-          width: 50px;
-          background-color: $favourite-pink;
-          border-radius: 50%;
-          display: inline-block;
-          top: -60px;
-          margin-left: auto;
-          margin-right: auto;
-          z-index: 2;
-          padding: 0;
       
-        }
-        
-    
-       
-    }
-}

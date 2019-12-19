@@ -418,11 +418,11 @@ img {
 
 #image-container3 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
 }
-#image-container3 .blog-image2 {
+#image-container3 #blog-image2 {
   align-self: center;
   border-style: solid;
   border-color: #000;
@@ -432,25 +432,13 @@ img {
   width: 75%;
   flex-grow: 2;
 }
-#image-container3 .blog-image2 .blog2-image {
+#image-container3 #blog-image2 #blog2-image {
+  height: 400px;
+  width: 400px;
   border-style: solid;
   border-color: black;
   border-width: 0 0 2px 0;
   flex-grow: 1;
-}
-#image-container3 .blog-image2 .dot2 {
-  position: relative;
-  left: 45%;
-  height: 50px;
-  width: 50px;
-  background-color: #ed217c;
-  border-radius: 50%;
-  display: inline-block;
-  top: -60px;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 2;
-  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
